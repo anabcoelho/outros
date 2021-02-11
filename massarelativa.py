@@ -45,4 +45,8 @@ hcortado=1.054*10**-34
 kforca=3
 
 E=hcortado*(kforca/mu)**0.5
-print("Solução de Shrodinger:",E)
+print("Solução de Shrodinger:",E,"Para k=",kforca)
+
+kforca=0.1
+E=hcortado*(kforca/mu)**0.5
+print("Solução de Shrodinger:",E,"Para k=",kforca)
