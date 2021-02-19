@@ -44,9 +44,9 @@ print ("massa relativa:",mu)
 hcortado=1.054*10**-34
 kforca=3
 
-E=hcortado*(kforca/mu)**0.5
-print("Solução de Shrodinger:",E,"Para k=",kforca)
+E=hcortado*((kforca/mu)**0.5)
+print("Frequência:",E,"Para k=",kforca)
 
 kforca=0.1
-E=hcortado*(kforca/mu)**0.5
-print("Solução de Shrodinger:",E,"Para k=",kforca)
+E=hcortado*((kforca/mu)**0.5)
+print("Frequência:",E,"Para k=",kforca)
